@@ -1,0 +1,50 @@
+PODS:
+  - Amplify (1.19.2):
+    - Amplify/Default (= 1.19.2)
+  - Amplify/Default (1.19.2)
+  - AmplifyPlugins/AWSAPIPlugin (1.19.2):
+    - AppSyncRealTimeClient (~> 1.4)
+    - AWSCore (~> 2.27.0)
+    - AWSPluginsCore (= 1.19.2)
+  - AmplifyPlugins/AWSDataStorePlugin (1.19.2):
+    - AWSCore (~> 2.27.0)
+    - AWSPluginsCore (= 1.19.2)
+    - SQLite.swift (= 0.12.2)
+  - AppSyncRealTimeClient (1.7.0):
+    - Starscream (~> 4.0.4)
+  - AWSCore (2.27.1)
+  - AWSPluginsCore (1.19.2):
+    - Amplify (= 1.19.2)
+    - AWSCore (~> 2.27.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Starscream (4.0.4)
+
+DEPENDENCIES:
+  - Amplify
+  - AmplifyPlugins/AWSAPIPlugin
+  - AmplifyPlugins/AWSDataStorePlugin
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AppSyncRealTimeClient
+    - AWSCore
+    - AWSPluginsCore
+    - SQLite.swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Amplify: cc3adcea085108a52bc3bb8273e5b38034593127
+  AmplifyPlugins: 4b24b838046785cf89d733a579a5c2ce56907c8c
+  AppSyncRealTimeClient: 3a9c0d6685974e7f5d9ce1c157ef9873b87706b1
+  AWSCore: f859f6955a8e52dcb3e79fac95fef058639d1049
+  AWSPluginsCore: 8c8d23756e6094aa92adfbe5c4b9cc1df1075576
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+
+PODFILE CHECKSUM: 1b98b492e8a27bd000ed8d7af34ab9feaad437f5
+
+COCOAPODS: 1.11.2
