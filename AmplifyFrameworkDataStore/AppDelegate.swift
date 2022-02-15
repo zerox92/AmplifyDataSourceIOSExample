@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 // AmplifyModels is generated in the previous step
                 let dataStorePlugin = AWSDataStorePlugin(modelRegistration: AmplifyModels())
                 try Amplify.add(plugin: dataStorePlugin)
+            //Comment the AWSAPIPlugin out if you intend to use DataStore as a local database.
                 try Amplify.add(plugin: AWSAPIPlugin())
                 try Amplify.configure()
                 print("Amplify configured with DataStore plugin")
