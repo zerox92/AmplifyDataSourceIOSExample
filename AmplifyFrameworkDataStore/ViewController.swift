@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        // Added instructions for usage
     }
 
     @IBAction func addButtonPressed(_ sender: Any) {
